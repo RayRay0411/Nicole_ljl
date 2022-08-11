@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.book"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\bookapp-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\bookapp-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->F:\bookapp-master\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\bookapp-master\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->F:\bookapp-master\app\src\main\AndroidManifest.xml:6:5-80
+12-->F:\bookapp-master\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->F:\bookapp-master\app\src\main\AndroidManifest.xml:7:5-67
+13-->F:\bookapp-master\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <!--
+16    AndroidManifest.xml 是每个android程序中必须的文件。它位于整个项目的根目录，
+17    描述了package中暴露的组件（activities, services, 等等），他们各自的实现类，各种能被处理的数据和启动位置
+18    -->
+19    <!-- applicatoin标签节点包含了对应用程序的声明。该节点中包含有应用程序属性和子节点 -->
+20    <!-- android:icon 属性指定了应用程序app在桌面上的图标 -->
+21    <!-- mipmap文件夹一般存放launcher图标，把图片放在该文件夹中可以提高系统渲染图片的速度，提高图片质量，减少GPU压力 -->
+22    <!-- drawable文件夹用来存放应用程序用到的其它pnp、jpg和gif图标 -->
+23    <!-- android:label 指定了在app标题栏中显示的内容 -->
+24    <!-- android:supportsRtl 该属性表示应用程序是否支持控件从右到左排列，true表示支持该排列方式，false表示不支持该排列方式 -->
+25    <application
+25-->F:\bookapp-master\app\src\main\AndroidManifest.xml:18:5-72:19
+26        android:allowBackup="true"
+26-->F:\bookapp-master\app\src\main\AndroidManifest.xml:19:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dac7c929999869c7ee463730017e00e4\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->F:\bookapp-master\app\src\main\AndroidManifest.xml:20:9-43
+30        android:label="@string/app_name"
+30-->F:\bookapp-master\app\src\main\AndroidManifest.xml:21:9-41
+31        android:networkSecurityConfig="@xml/network_security_config"
+31-->F:\bookapp-master\app\src\main\AndroidManifest.xml:22:9-69
+32        android:requestLegacyExternalStorage="true"
+32-->F:\bookapp-master\app\src\main\AndroidManifest.xml:25:9-52
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->F:\bookapp-master\app\src\main\AndroidManifest.xml:23:9-54
+34        android:supportsRtl="true"
+34-->F:\bookapp-master\app\src\main\AndroidManifest.xml:24:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->F:\bookapp-master\app\src\main\AndroidManifest.xml:26:9-40
+37        <activity
+37-->F:\bookapp-master\app\src\main\AndroidManifest.xml:27:9-29:40
+38            android:name="com.app.book.SearchActivity"
+38-->F:\bookapp-master\app\src\main\AndroidManifest.xml:28:13-43
+39            android:exported="false" />
+39-->F:\bookapp-master\app\src\main\AndroidManifest.xml:29:13-37
+40        <activity
+40-->F:\bookapp-master\app\src\main\AndroidManifest.xml:30:9-40:20
+41            android:name="com.app.book.SplashActivity"
+41-->F:\bookapp-master\app\src\main\AndroidManifest.xml:31:13-43
+42            android:exported="true"
+42-->F:\bookapp-master\app\src\main\AndroidManifest.xml:32:13-36
+43            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+43-->F:\bookapp-master\app\src\main\AndroidManifest.xml:33:13-72
+44            <intent-filter> <!-- 意图过滤器 -->
+44-->F:\bookapp-master\app\src\main\AndroidManifest.xml:34:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->F:\bookapp-master\app\src\main\AndroidManifest.xml:35:17-69
+45-->F:\bookapp-master\app\src\main\AndroidManifest.xml:35:25-66
+46                <!-- 其中的属性值“android.intent.action.MAIN”表示该活动是应用程序的入口活动，当应用程序启动时，首先显示该活动 -->
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->F:\bookapp-master\app\src\main\AndroidManifest.xml:37:17-77
+47-->F:\bookapp-master\app\src\main\AndroidManifest.xml:37:27-74
+48                <!-- .LAUNCHER 表示该活动被列入桌面启动器（launcher）中。通过指定这两个参数值，MainActivity活动就被指定为应用程序的主活动 -->
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->F:\bookapp-master\app\src\main\AndroidManifest.xml:41:9-44:59
+52            android:name="com.app.book.ui.order.PayActivity"
+52-->F:\bookapp-master\app\src\main\AndroidManifest.xml:42:13-49
+53            android:label="@string/title_activity_pay"
+53-->F:\bookapp-master\app\src\main\AndroidManifest.xml:43:13-55
+54            android:theme="@style/AppTheme.NoActionBar" />
+54-->F:\bookapp-master\app\src\main\AndroidManifest.xml:44:13-56
+55        <activity
+55-->F:\bookapp-master\app\src\main\AndroidManifest.xml:45:9-48:59
+56            android:name="com.app.book.ui.order.OrderActivity"
+56-->F:\bookapp-master\app\src\main\AndroidManifest.xml:46:13-51
+57            android:label="@string/title_activity_order"
+57-->F:\bookapp-master\app\src\main\AndroidManifest.xml:47:13-57
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->F:\bookapp-master\app\src\main\AndroidManifest.xml:48:13-56
+59        <activity
+59-->F:\bookapp-master\app\src\main\AndroidManifest.xml:49:9-52:59
+60            android:name="com.app.book.ui.order.ConfirmActivity"
+60-->F:\bookapp-master\app\src\main\AndroidManifest.xml:50:13-53
+61            android:label="@string/title_activity_confirm"
+61-->F:\bookapp-master\app\src\main\AndroidManifest.xml:51:13-59
+62            android:theme="@style/AppTheme.NoActionBar" />
+62-->F:\bookapp-master\app\src\main\AndroidManifest.xml:52:13-56
+63        <activity
+63-->F:\bookapp-master\app\src\main\AndroidManifest.xml:53:9-56:59
+64            android:name="com.app.book.ui.book.DetailActivity"
+64-->F:\bookapp-master\app\src\main\AndroidManifest.xml:54:13-51
+65            android:label="@string/title_activity_detail"
+65-->F:\bookapp-master\app\src\main\AndroidManifest.xml:55:13-58
+66            android:theme="@style/AppTheme.NoActionBar" />
+66-->F:\bookapp-master\app\src\main\AndroidManifest.xml:56:13-56
+67        <activity
+67-->F:\bookapp-master\app\src\main\AndroidManifest.xml:57:9-60:59
+68            android:name="com.app.book.ui.login.LoginActivity"
+68-->F:\bookapp-master\app\src\main\AndroidManifest.xml:58:13-51
+69            android:label="@string/title_activity_login"
+69-->F:\bookapp-master\app\src\main\AndroidManifest.xml:59:13-57
+70            android:theme="@style/AppTheme.NoActionBar" />
+70-->F:\bookapp-master\app\src\main\AndroidManifest.xml:60:13-56
+71        <activity
+71-->F:\bookapp-master\app\src\main\AndroidManifest.xml:61:9-64:59
+72            android:name="com.app.book.ui.login.RegisterActivity"
+72-->F:\bookapp-master\app\src\main\AndroidManifest.xml:62:13-54
+73            android:label="@string/title_activity_register"
+73-->F:\bookapp-master\app\src\main\AndroidManifest.xml:63:13-60
+74            android:theme="@style/AppTheme.NoActionBar" />
+74-->F:\bookapp-master\app\src\main\AndroidManifest.xml:64:13-56
+75        <activity
+75-->F:\bookapp-master\app\src\main\AndroidManifest.xml:65:9-68:59
+76            android:name="com.app.book.ui.mine.UserActivity"
+76-->F:\bookapp-master\app\src\main\AndroidManifest.xml:66:13-49
+77            android:label="@string/title_activity_user"
+77-->F:\bookapp-master\app\src\main\AndroidManifest.xml:67:13-56
+78            android:theme="@style/AppTheme.NoActionBar" />
+78-->F:\bookapp-master\app\src\main\AndroidManifest.xml:68:13-56
+79        <activity
+79-->F:\bookapp-master\app\src\main\AndroidManifest.xml:69:9-71:57
+80            android:name="com.app.book.MainActivity"
+80-->F:\bookapp-master\app\src\main\AndroidManifest.xml:70:13-41
+81            android:label="@string/app_name" />
+81-->F:\bookapp-master\app\src\main\AndroidManifest.xml:71:13-45
+82
+83        <provider
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\238c10d1ce435e53a2f343cecbbc5c20\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+84            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\238c10d1ce435e53a2f343cecbbc5c20\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+85            android:authorities="com.app.book.lifecycle-process"
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\238c10d1ce435e53a2f343cecbbc5c20\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+86            android:exported="false"
+86-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\238c10d1ce435e53a2f343cecbbc5c20\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+87            android:multiprocess="true" />
+87-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\238c10d1ce435e53a2f343cecbbc5c20\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+88    </application>
+89
+90</manifest>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.book"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+    AndroidManifest.xml 是每个android程序中必须的文件。它位于整个项目的根目录，
+    描述了package中暴露的组件（activities, services, 等等），他们各自的实现类，各种能被处理的数据和启动位置
+    -->
+    <!-- applicatoin标签节点包含了对应用程序的声明。该节点中包含有应用程序属性和子节点 -->
+    <!-- android:icon 属性指定了应用程序app在桌面上的图标 -->
+    <!-- mipmap文件夹一般存放launcher图标，把图片放在该文件夹中可以提高系统渲染图片的速度，提高图片质量，减少GPU压力 -->
+    <!-- drawable文件夹用来存放应用程序用到的其它pnp、jpg和gif图标 -->
+    <!-- android:label 指定了在app标题栏中显示的内容 -->
+    <!-- android:supportsRtl 该属性表示应用程序是否支持控件从右到左排列，true表示支持该排列方式，false表示不支持该排列方式 -->
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.app.book.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.app.book.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            <intent-filter> <!-- 意图过滤器 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- 其中的属性值“android.intent.action.MAIN”表示该活动是应用程序的入口活动，当应用程序启动时，首先显示该活动 -->
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- .LAUNCHER 表示该活动被列入桌面启动器（launcher）中。通过指定这两个参数值，MainActivity活动就被指定为应用程序的主活动 -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.book.ui.order.PayActivity"
+            android:label="@string/title_activity_pay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.ui.order.OrderActivity"
+            android:label="@string/title_activity_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.ui.order.ConfirmActivity"
+            android:label="@string/title_activity_confirm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.ui.book.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.ui.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.ui.login.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.ui.mine.UserActivity"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.app.book.MainActivity"
+            android:label="@string/app_name" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.app.book.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_circle_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_circle_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph6.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\nav_graph6.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_pay.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_pay.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_view_list_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_person_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_arrow.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\arrow.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_view_list_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_classify_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\classify_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_shopping_cart_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_view_list_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_view_list_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_classify_book_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\classify_book_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bookmark_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_normal.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable\\button_normal.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_bookmark_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_shopping_cart_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_view_shape.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable\\search_view_shape.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_avatar.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\avatar.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_order.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_order.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_remove.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-hdpi\\remove.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_main_button_3.JPG.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable-v24\\main_button_3.JPG"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_shopping_cart_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_shopping_cart_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_confirm.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_confirm.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_shopping_cart_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_circle_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_circle_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_book_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\order_book_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bookmark_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph4.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\nav_graph4.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\order_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon_back.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-hdpi\\icon_back.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable\\edit_text.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_shopping_cart_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_avatar11.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\avatar11.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_classify.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\fragment_classify.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_circle_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_circle_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\address_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_cart.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\cart.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pay.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_pay.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_detail.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_detail.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_circle_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_circle_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_main_button2.JPG.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable-v24\\main_button2.JPG"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bookmark_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_view_list_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_shopping_cart_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_book_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\book_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bookmark_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_cart_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\cart_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph2.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_main_button1.JPG.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable-v24\\main_button1.JPG"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_list_item.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\search_list_item.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_splash.jpeg.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-hdpi\\splash.jpeg"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_pay.jpg.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\pay.jpg"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bookmark_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bookmark_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph3.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\nav_graph3.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_login.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_login.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_circle_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add_circle_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_circle_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_circle_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_back.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable\\list_item_back.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_register.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_register.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_view_list_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_confirm.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_confirm.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bookmark_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_bookmark_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_view_list_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bookshelf.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\bookshelf.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cart.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mine.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_circle_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_circle_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_user.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\content_user.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_shopping_cart_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_shopping_cart_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_arrow_back.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_back.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph5.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\navigation\\nav_graph5.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_view_list_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
+        "source": "F:\\bookapp-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_pressed.xml.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\drawable\\button_pressed.xml"
+    },
+    {
+        "merged": "F:\\bookapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\bookapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    }
+]

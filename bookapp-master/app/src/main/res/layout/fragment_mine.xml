@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.mine.MineFragment">
+
+    <LinearLayout
+        style="@style/mineHeader"
+        android:layout_width="match_parent"
+        android:background="#e64340"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_height="180dp">
+
+        <com.app.book.components.AvatarImageView
+            android:id="@+id/avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/avatar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            ></com.app.book.components.AvatarImageView>
+
+        <TextView
+            android:id="@+id/nickname"
+            style="@style/nickname"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="未登录，点击登录" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View android:layout_height="2px" android:background="#ddd" android:layout_width="fill_parent"></View>
+
+        <LinearLayout
+            android:id="@+id/mine_info"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="我的信息"
+                style="@style/listItemText"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:src="@mipmap/arrow"></ImageView>
+
+        </LinearLayout>
+
+        <View android:layout_height="2px" android:background="#ddd" android:layout_width="fill_parent"></View>
+
+        <LinearLayout
+            android:id="@+id/mine_order"
+            style="@style/listItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="我的借阅"
+                style="@style/listItemText"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:src="@mipmap/arrow"></ImageView>
+
+        </LinearLayout>
+
+        <View android:layout_height="2px" android:background="#ddd" android:layout_width="fill_parent"></View>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:textColor="#fff"
+            android:visibility="gone"
+            android:text="退出"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

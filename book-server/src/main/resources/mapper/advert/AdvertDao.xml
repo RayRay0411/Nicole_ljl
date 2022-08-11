@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper.dtd——数据类型规范-->
+<!--下面就是mapper的第一个根节点，里面会指定一个namespace，就是会指定到对应的Dao的接口-->
+<mapper namespace="com.book.modules.advert.dao.AdvertDao">
+	<!--上面就是在说，namespace会加上下面的select id，然后会组成我们的statement id，然后会绑定到对应的SQL语句上-->
+
+	<!-- 可根据自己的需求，是否要使用 -->
+	<!--resultMap相当于数据库有自己的方言-->
+	<!--怎么通过java操纵数据库-->
+	<!--通过一个Javabean对象做一个实体映射-->
+	<!--property相当于Javabean里对应的实体属性，column相当于mysql里的一个字段的属性名-->
+    <resultMap type="com.book.modules.advert.entity.AdvertEntity" id="advertMap">
+        <result property="id" column="id"/>
+        <result property="picUrl" column="pic_url"/>
+        <result property="enable" column="enable"/>
+        <result property="link" column="link"/>
+        <result property="sort" column="sort"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+<!--每一条select标签就相当于会有一条SQL -->
+	<select id="queryObject" resultType="com.book.modules.advert.entity.AdvertEntity">
+		select * from book_advert where id = #{value}
+	</select>
+
+	<select id="queryList" resultType="com.book.modules.advert.entity.AdvertEntity">
+		select * from book_advert
+		<!--WHERE标签是会判断在里面的一个条件，是否会满足，如果不满足，where条件会自己去掉-->
+		<where>
+			<if test="enable != null">
+				enable = #{enable}
+			</if>
+		</where>
+        <choose>
+        <!--通过字段的条件来排序-->
+            <when test="sidx != null and sidx.trim() != ''">
+                order by ${sidx} ${order}
+            </when>
+			<otherwise>
+                order by id desc
+			</otherwise>
+        </choose><!--利用 choose 和 otherwise 组合标签拼装查询条件-->
+        <!--分页查询-->
+        <!--limit限制查询页的总条数，offset指定当前的数据页偏移量-->
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	<!--查询总条数-->
+ 	<select id="queryTotal" resultType="int">
+		select count(*) from book_advert 
+		<where>
+			<if test="enable != null">
+				enable = #{enable}
+			</if>
+		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.book.modules.advert.entity.AdvertEntity" useGeneratedKeys="true" keyProperty="id">
+		insert into book_advert
+		(
+			`pic_url`, 
+			`enable`, 
+			`link`, 
+			`sort`, 
+			`create_time`
+		)
+		values
+		(
+			#{picUrl}, 
+			#{enable}, 
+			#{link}, 
+			#{sort}, 
+			#{createTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.book.modules.advert.entity.AdvertEntity">
+		update book_advert 
+		<set>
+			<if test="picUrl != null">`pic_url` = #{picUrl}, </if>
+			<if test="enable != null">`enable` = #{enable}, </if>
+			<if test="link != null">`link` = #{link}, </if>
+			<if test="sort != null">`sort` = #{sort}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<delete id="delete">
+		delete from book_advert where id = #{value}
+	</delete>
+	
+	<delete id="deleteBatch">
+		delete from book_advert where id in 
+		<foreach item="id" collection="array" open="(" separator="," close=")">
+			#{id}
+		</foreach>/*＜foreach＞标签--实现批量操作*/
+	</delete>
+
+</mapper>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.mine.UserActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_user">
+
+    <LinearLayout
+        style="@style/mineHeader"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_height="140dp">
+
+        <com.app.book.components.AvatarImageView
+            android:id="@+id/avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/avatar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            ></com.app.book.components.AvatarImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+
+    <EditText
+        android:text=""
+        android:id="@+id/nickname"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:hint="请输入昵称"></EditText>
+
+
+    <EditText
+        android:id="@+id/realName"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:hint="请输入姓名"></EditText>
+
+    <EditText
+        android:text=""
+        android:id="@+id/mobile"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:hint="请输入手机号码"></EditText>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:text="保存"></Button>
+
+    </LinearLayout>
+</LinearLayout>

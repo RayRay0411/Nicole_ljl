@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.login.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main_button2"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:showIn="@layout/activity_register">
+
+    <EditText
+        android:text=""
+        android:id="@+id/loginName"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/colorAccent"
+        android:hint="请输入用户名"
+        tools:ignore="MissingConstraints"></EditText>
+
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/colorAccent"
+        android:hint="请输入密码"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <EditText
+        android:text=""
+        android:id="@+id/nickname"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/colorAccent"
+        android:hint="请输入昵称"></EditText>
+
+    <EditText
+        android:text=""
+        android:id="@+id/realName"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/colorAccent"
+        android:hint="请输入姓名"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <EditText
+        android:text=""
+        android:id="@+id/mobile"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:textColor="@color/colorAccent"
+        android:hint="请输入手机号码"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:layout_marginBottom="20dp"
+        android:text="注册"></Button>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:text="登录"></Button>
+
+</LinearLayout>
